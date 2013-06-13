@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.java-prolog-connectivity</groupId>
+	<artifactId>jpc-drivers</artifactId>
+	<version>0.0.1-alpha-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>All Known JPC Drivers</name>
+	<description>An auxiliary project declaring dependencies on all the currently supported JPC drivers</description>
+	<url>https://github.com/sergio-castro/jpc.drivers</url>
+	
+	<licenses>
+	    <license>
+	      <name>GNU Lesser General Public License</name>
+	      <url>http://www.gnu.org/licenses/lgpl.html</url>
+	    </license>
+    </licenses>
+  
+    <scm>
+      <connection>scm:git:git@github.com:sergio-castro/jpc.drivers.git</connection>
+      <url>git@github.com:sergio-castro/jpc.drivers.git</url>
+    </scm>
+    
+    <developers>
+      <developer>
+        <name>Sergio Castro</name>
+      </developer>
+    </developers>
+    
+    
+	<prerequisites>
+		<maven>2.2.1</maven>
+	</prerequisites>
+
+
+	<dependencies>
+ 		
+ 		<dependency>
+			<groupId>com.github.java-prolog-connectivity</groupId>
+			<artifactId>jpc-jpl</artifactId>
+			<version>0.0.1-alpha-SNAPSHOT</version>
+		</dependency> 
+		
+   		<dependency>
+			<groupId>com.github.java-prolog-connectivity</groupId>
+			<artifactId>jpc-interprolog</artifactId>
+			<version>0.0.1-alpha-SNAPSHOT</version>
+		</dependency> 	
+ 		
+   		<dependency>
+			<groupId>com.github.java-prolog-connectivity</groupId>
+			<artifactId>jpc-pdtconnector</artifactId>
+			<version>0.0.1-alpha-SNAPSHOT</version>
+		</dependency> 
+		
+	</dependencies>
+
+<build>
+		<pluginManagement>
+		    <plugins>
+		      <plugin>
+		        <groupId>org.eclipse.m2e</groupId>
+		        <artifactId>lifecycle-mapping</artifactId>
+		        <version>1.0.0</version>
+		        <configuration>
+		          <lifecycleMappingMetadata>
+		            <pluginExecutions>
+		              <pluginExecution>
+		                <pluginExecutionFilter>
+		                  <groupId>org.apache.maven.plugins</groupId>
+		                  <artifactId>maven-dependency-plugin</artifactId>
+		                  <versionRange>[1.0.0,)</versionRange>
+		                  <goals>
+		                    <goal>copy-dependencies</goal>
+		                  </goals>
+		                </pluginExecutionFilter>
+		                <action>
+		                  <ignore />
+		                </action>
+		              </pluginExecution>
+		            </pluginExecutions>
+		          </lifecycleMappingMetadata>
+		        </configuration>
+		      </plugin>
+		    </plugins>
+		  </pluginManagement>
+
+</build>
+</project>
