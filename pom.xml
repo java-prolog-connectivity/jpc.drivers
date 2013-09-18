@@ -14,7 +14,7 @@
 	<name>All Known JPC Drivers</name>
 	<description>An auxiliary project declaring dependencies on all the currently supported JPC drivers</description>
 	<packaging>pom</packaging>
-	<url>https://github.com/sergio-castro/jpc.drivers</url>
+	<url>https://github.com/java-prolog-connectivity/jpc.drivers</url>
 	
 	<licenses>
 	    <license>
@@ -24,8 +24,9 @@
     </licenses>
   
     <scm>
-      <connection>scm:git:git@github.com:sergio-castro/jpc.drivers.git</connection>
-      <url>git@github.com:sergio-castro/jpc.drivers.git</url>
+      <connection>scm:git:git@github.com:java-prolog-connectivity/jpc.drivers.git</connection>
+      <developerConnection>scm:git:git@github.com:java-prolog-connectivity/jpc.drivers.git</developerConnection>
+      <url>git@github.com:java-prolog-connectivity/jpc.drivers.git</url>
     </scm>
     
     <developers>
