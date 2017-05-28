@@ -5,11 +5,11 @@
     <parent>
 		<groupId>com.github.java-prolog-connectivity</groupId>
 		<artifactId>jpc-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1-alpha</version>
 	</parent>
 	
 	<artifactId>jpc-drivers</artifactId>
-	<version>0.0.1-alpha-SNAPSHOT</version>
+	<version>0.0.1-alpha</version>
 	
 	<name>All Known JPC Drivers</name>
 	<description>An auxiliary project declaring dependencies on all the currently supported JPC drivers</description>
@@ -39,19 +39,19 @@
  		<dependency>
 			<groupId>com.github.java-prolog-connectivity</groupId>
 			<artifactId>jpc-jpl</artifactId>
-			<version>0.0.1-alpha-SNAPSHOT</version>
+			<version>0.0.1-alpha</version>
 		</dependency> 
 		
    		<dependency>
 			<groupId>com.github.java-prolog-connectivity</groupId>
 			<artifactId>jpc-interprolog</artifactId>
-			<version>0.0.1-alpha-SNAPSHOT</version>
+			<version>0.0.1-alpha</version>
 		</dependency> 	
  		
    		<dependency>
 			<groupId>com.github.java-prolog-connectivity</groupId>
 			<artifactId>jpc-pdtconnector</artifactId>
-			<version>0.0.1-alpha-SNAPSHOT</version>
+			<version>0.0.1-alpha</version>
 		</dependency> 
 	</dependencies>
 
